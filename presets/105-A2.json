@@ -1,0 +1,468 @@
+{
+  "floorplan": "105-A2",
+  "furniture": [
+    {
+      "id": "preset-0",
+      "type": "shoecab",
+      "name": "玄关柜",
+      "cx": 1250,
+      "cy": 800,
+      "w": 900,
+      "d": 260,
+      "rot": 90,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-1",
+      "type": "fridge",
+      "name": "冰箱",
+      "cx": 1900,
+      "cy": 500,
+      "w": 560,
+      "d": 600,
+      "rot": 0,
+      "color": "#dfe4e8"
+    },
+    {
+      "id": "preset-2",
+      "type": "counter",
+      "name": "橱柜台面",
+      "cx": 3180,
+      "cy": 1500,
+      "w": 1500,
+      "d": 600,
+      "rot": 90,
+      "color": "#e9e5de"
+    },
+    {
+      "id": "preset-3",
+      "type": "counter",
+      "name": "橱柜台面",
+      "cx": 2550,
+      "cy": 2020,
+      "w": 1800,
+      "d": 500,
+      "rot": 180,
+      "color": "#e9e5de"
+    },
+    {
+      "id": "preset-4",
+      "type": "ksink",
+      "name": "水槽",
+      "cx": 3180,
+      "cy": 1200,
+      "w": 650,
+      "d": 400,
+      "rot": 90,
+      "color": "#e1e6ea"
+    },
+    {
+      "id": "preset-5",
+      "type": "stove",
+      "name": "燃气灶",
+      "cx": 2450,
+      "cy": 2020,
+      "w": 750,
+      "d": 430,
+      "rot": 180,
+      "color": "#dcdcdc"
+    },
+    {
+      "id": "preset-6",
+      "type": "table",
+      "name": "餐桌",
+      "cx": 2350,
+      "cy": 3300,
+      "w": 1300,
+      "d": 750,
+      "rot": 90,
+      "color": "#e2cfb4"
+    },
+    {
+      "id": "preset-7",
+      "type": "chair",
+      "name": "餐椅",
+      "cx": 1700,
+      "cy": 2950,
+      "w": 430,
+      "d": 430,
+      "rot": 270,
+      "color": "#cfc6b8"
+    },
+    {
+      "id": "preset-8",
+      "type": "chair",
+      "name": "餐椅",
+      "cx": 1700,
+      "cy": 3650,
+      "w": 430,
+      "d": 430,
+      "rot": 270,
+      "color": "#cfc6b8"
+    },
+    {
+      "id": "preset-9",
+      "type": "chair",
+      "name": "餐椅",
+      "cx": 3000,
+      "cy": 2950,
+      "w": 430,
+      "d": 430,
+      "rot": 90,
+      "color": "#cfc6b8"
+    },
+    {
+      "id": "preset-10",
+      "type": "chair",
+      "name": "餐椅",
+      "cx": 3000,
+      "cy": 3650,
+      "w": 430,
+      "d": 430,
+      "rot": 90,
+      "color": "#cfc6b8"
+    },
+    {
+      "id": "preset-11",
+      "type": "rug",
+      "name": "地毯",
+      "cx": 1980,
+      "cy": 6600,
+      "w": 2200,
+      "d": 2900,
+      "rot": 0,
+      "color": "#d9cbb8"
+    },
+    {
+      "id": "preset-12",
+      "type": "sofa",
+      "name": "三人沙发",
+      "cx": 3060,
+      "cy": 6550,
+      "w": 2500,
+      "d": 800,
+      "rot": 90,
+      "color": "#b7c4b0"
+    },
+    {
+      "id": "preset-13",
+      "type": "tvstand",
+      "name": "电视柜",
+      "cx": 340,
+      "cy": 6500,
+      "w": 1800,
+      "d": 360,
+      "rot": 270,
+      "color": "#e2cfb4"
+    },
+    {
+      "id": "preset-14",
+      "type": "tv",
+      "name": "55 寸电视",
+      "cx": 260,
+      "cy": 6500,
+      "w": 1230,
+      "d": 80,
+      "rot": 270,
+      "color": "#1d1d1f"
+    },
+    {
+      "id": "preset-15",
+      "type": "coffeetable",
+      "name": "茶几",
+      "cx": 1950,
+      "cy": 6600,
+      "w": 1200,
+      "d": 600,
+      "rot": 90,
+      "color": "#e8dccb"
+    },
+    {
+      "id": "preset-16",
+      "type": "armchair",
+      "name": "单人沙发",
+      "cx": 2250,
+      "cy": 7650,
+      "w": 750,
+      "d": 750,
+      "rot": 180,
+      "color": "#d6b99a"
+    },
+    {
+      "id": "preset-17",
+      "type": "sidetable",
+      "name": "边几",
+      "cx": 2950,
+      "cy": 7700,
+      "w": 450,
+      "d": 450,
+      "rot": 0,
+      "color": "#d9c3a3"
+    },
+    {
+      "id": "preset-18",
+      "type": "shower",
+      "name": "淋浴房",
+      "cx": 4450,
+      "cy": 1540,
+      "w": 1200,
+      "d": 1000,
+      "rot": 0,
+      "color": "#e4edf2"
+    },
+    {
+      "id": "preset-19",
+      "type": "toilet",
+      "name": "马桶",
+      "cx": 4130,
+      "cy": 2480,
+      "w": 400,
+      "d": 650,
+      "rot": 270,
+      "color": "#ffffff"
+    },
+    {
+      "id": "preset-20",
+      "type": "vanity",
+      "name": "浴室柜",
+      "cx": 4000,
+      "cy": 3220,
+      "w": 750,
+      "d": 460,
+      "rot": 270,
+      "color": "#eef1f3"
+    },
+    {
+      "id": "preset-21",
+      "type": "shower",
+      "name": "淋浴房",
+      "cx": 8650,
+      "cy": 1540,
+      "w": 1200,
+      "d": 1000,
+      "rot": 0,
+      "color": "#e4edf2"
+    },
+    {
+      "id": "preset-22",
+      "type": "toilet",
+      "name": "马桶",
+      "cx": 8970,
+      "cy": 2480,
+      "w": 400,
+      "d": 650,
+      "rot": 90,
+      "color": "#ffffff"
+    },
+    {
+      "id": "preset-23",
+      "type": "vanity",
+      "name": "浴室柜",
+      "cx": 9100,
+      "cy": 3220,
+      "w": 750,
+      "d": 460,
+      "rot": 90,
+      "color": "#eef1f3"
+    },
+    {
+      "id": "preset-24",
+      "type": "bed",
+      "name": "单人床",
+      "cx": 6400,
+      "cy": 2020,
+      "w": 1200,
+      "d": 1900,
+      "rot": 0,
+      "color": "#c9d6df"
+    },
+    {
+      "id": "preset-25",
+      "type": "wardrobe",
+      "name": "衣柜",
+      "cx": 7380,
+      "cy": 1960,
+      "w": 1800,
+      "d": 540,
+      "rot": 90,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-26",
+      "type": "wardrobe",
+      "name": "小衣柜",
+      "cx": 6900,
+      "cy": 3150,
+      "w": 1300,
+      "d": 500,
+      "rot": 180,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-27",
+      "type": "bed",
+      "name": "双人床 1.5m",
+      "cx": 5000,
+      "cy": 6700,
+      "w": 1500,
+      "d": 2000,
+      "rot": 90,
+      "color": "#c9d6df"
+    },
+    {
+      "id": "preset-28",
+      "type": "wardrobe",
+      "name": "衣柜",
+      "cx": 5180,
+      "cy": 5370,
+      "w": 1800,
+      "d": 600,
+      "rot": 0,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-29",
+      "type": "nightstand",
+      "name": "床头柜",
+      "cx": 5960,
+      "cy": 5630,
+      "w": 400,
+      "d": 400,
+      "rot": 0,
+      "color": "#e8dccb"
+    },
+    {
+      "id": "preset-30",
+      "type": "nightstand",
+      "name": "床头柜",
+      "cx": 5960,
+      "cy": 7790,
+      "w": 400,
+      "d": 400,
+      "rot": 0,
+      "color": "#e8dccb"
+    },
+    {
+      "id": "preset-31",
+      "type": "bed",
+      "name": "双人床 1.8m",
+      "cx": 8080,
+      "cy": 6830,
+      "w": 1800,
+      "d": 2000,
+      "rot": 90,
+      "color": "#c9d6df"
+    },
+    {
+      "id": "preset-32",
+      "type": "nightstand",
+      "name": "床头柜",
+      "cx": 9000,
+      "cy": 5560,
+      "w": 430,
+      "d": 400,
+      "rot": 0,
+      "color": "#e8dccb"
+    },
+    {
+      "id": "preset-33",
+      "type": "nightstand",
+      "name": "床头柜",
+      "cx": 9000,
+      "cy": 7900,
+      "w": 430,
+      "d": 400,
+      "rot": 0,
+      "color": "#e8dccb"
+    },
+    {
+      "id": "preset-34",
+      "type": "wardrobe",
+      "name": "衣柜",
+      "cx": 9010,
+      "cy": 4510,
+      "w": 1500,
+      "d": 550,
+      "rot": 90,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-35",
+      "type": "wardrobe",
+      "name": "衣柜",
+      "cx": 7950,
+      "cy": 4880,
+      "w": 1700,
+      "d": 550,
+      "rot": 180,
+      "color": "#efe6d8"
+    },
+    {
+      "id": "preset-36",
+      "type": "washer",
+      "name": "洗衣机",
+      "cx": 5240,
+      "cy": 8660,
+      "w": 600,
+      "d": 600,
+      "rot": 0,
+      "color": "#e6ebee"
+    }
+  ],
+  "rooms": {
+    "entry": {
+      "name": "玄关",
+      "mat": "tile800"
+    },
+    "kitchen": {
+      "name": "厨房",
+      "mat": "tile600"
+    },
+    "dining": {
+      "name": "餐厅",
+      "mat": "tile800"
+    },
+    "living": {
+      "name": "客厅",
+      "mat": "tile800"
+    },
+    "gbath": {
+      "name": "客卫",
+      "mat": "antislip"
+    },
+    "northbed": {
+      "name": "北卧室",
+      "mat": "wood"
+    },
+    "mbath": {
+      "name": "主卫",
+      "mat": "antislip"
+    },
+    "hall": {
+      "name": "过道",
+      "mat": "tile800"
+    },
+    "southbed": {
+      "name": "南卧室",
+      "mat": "wood"
+    },
+    "master": {
+      "name": "主卧室",
+      "mat": "wood"
+    },
+    "balcony": {
+      "name": "阳台",
+      "mat": "antislip"
+    },
+    "ac_south": {
+      "name": "南空调机位",
+      "mat": "antislip"
+    },
+    "ac_north": {
+      "name": "北空调机位",
+      "mat": "antislip"
+    }
+  },
+  "demolished": [],
+  "measures": []
+}

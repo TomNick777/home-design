@@ -1,8 +1,18 @@
 # 户型装修设计
 
+本目录已导入 **105-A2 户型**，基于 [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d) 的 master 提交 `730ec0923a018fdf38b4687c5ef385c7dcac451f`。
+
+在线预览：[105-A2 户型装修编辑器](https://tomnick777.github.io/home-design/)。代码备份：[TomNick777/home-design](https://github.com/TomNick777/home-design)。
+
+GitHub Pages 从 `master` 分支根目录发布，推送该分支后自动更新预览。`.nojekyll` 让静态文件直接发布，无需构建。在线方案保存在当前浏览器的 `localStorage` 中，不会同步到 GitHub；需要备份编辑后的方案时，请导出 JSON。
+
+运行 `python -m http.server 8000 --bind 127.0.0.1`，打开 http://127.0.0.1:8000。默认即为 105-A2，可直接编辑家具、切换 3D、漫游、导出或导入 JSON。初始方案另存于 `presets/105-A2.json`。
+
+户型几何和默认家具统一位于 `floorplan-105.js`，原图位于 `assets/105-A2-source.png`。导入依据和限制见 `PROJECT_STATE.md`。
+
 中文 | [English](README.en.md)
 
-纯前端的户型装修设计工具：在 2D 平面图上摆放家具、拆改墙体、测量尺寸，一键切换到 Three.js 3D 场景，可以鸟瞰，也可以第一人称漫游。整个应用就是一个 `index.html`，无需构建，打开即用。
+纯前端的户型装修设计工具：在 2D 平面图上摆放家具、拆改墙体、测量尺寸，一键切换到 Three.js 3D 场景，可以鸟瞰，也可以第一人称漫游。应用由 `index.html` 与 `floorplan-105.js` 组成，无需构建。
 
 ## 功能
 
@@ -31,8 +41,8 @@
 ## 快速开始
 
 ```bash
-git clone <仓库地址>
-cd <仓库目录>
+git clone https://github.com/TomNick777/home-design.git
+cd home-design
 ```
 
 然后直接用浏览器打开 `index.html`。也可以起一个本地静态服务器：
@@ -70,7 +80,7 @@ python3 -m http.server 8000
 
 ## 自定义户型
 
-户型数据写在 `index.html` 里：
+105-A2 户型数据写在 `floorplan-105.js` 里；材质、家具库和渲染逻辑仍在 `index.html`：
 
 - `ROOMS`：房间多边形、名称、默认地面材料
 - `WALLS` / `WINS`：墙体与窗洞
