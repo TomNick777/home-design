@@ -24,4 +24,5 @@ node tools/build-designer.mjs
 
 本仓库历史基于 [wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d)，保留原始 `LICENSE` 和 Git 历史。旧 105-A2 的源图、预设和预览仅留作历史资料，当前网页不再载入。
 
-已配置的 GitHub Pages 地址为 https://tomnick777.github.io/home-design/ 。本次仅修改本地文件，未推送或更新线上版本。
+在线地址：[https://tomnick777.github.io/home-design/](https://tomnick777.github.io/home-design/)。方案仍保存在当前浏览器本地；换浏览器、无痕模式，或本地 file / localhost 与线上域名之间，存档互不共享。可用「导出 → 分享文件」备份。
+
