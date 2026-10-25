@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import crypto from 'node:crypto';
+const root=path.resolve(import.meta.dirname,'..');
+const context={module:{exports:{}}};
+vm.runInNewContext(fs.readFileSync(path.join(root,'floorplan-105.js'),'utf8'),context);
+const {HOUSE_SPEC:spec}=context.module.exports;
+fs.writeFileSync(path.join(root,'presets/105-A1.json'),JSON.stringify(spec,null,2)+'\n');
+const ul=spec.underlay; delete spec.underlay;
+const image=fs.readFileSync(path.resolve(root,'presets',ul.image));
+const preset={spec,underlay:{src:'data:image/png;base64,'+image.toString('base64'),imgW:380,imgH:811,mmPerPx:ul.mmPerPx,x:ul.x,y:ul.y}};
+preset.id=crypto.createHash('sha1').update(JSON.stringify(preset)).digest('hex').slice(0,12);
+let html=fs.readFileSync(path.join(root,'assets/designer-template.html'),'utf8');
+html=html.replace(/<script id="__preset">[\s\S]*?<\/script>/,'');
+html=html.replace(/<meta charset[^>]*>/i,m=>m+'<script id="__preset">window.__PRESET__='+JSON.stringify(preset).replaceAll('<','\\u003c')+'</script>');
+html=html.replace(/<title>.*?<\/title>/,`<title>${spec.name} · 装修设计器</title>`);
+// The source image has no structural legend; do not label locked walls as proven bearing.
+html=html.replaceAll('非承重墙','普通隔墙').replaceAll('承重墙','保留墙（性质待核）');
+fs.writeFileSync(path.join(root,'index.html'),html.replace(/\r/g,'').replace(/[ \t]+$/gm,'').replace(/^[ \t]+/gm,s=>s.replaceAll('\t','  ')));
+console.log(`Built index.html (${Math.round(Buffer.byteLength(html)/1024)} KB), ${spec.walls.length} walls, ${spec.furniture.length} furniture`);

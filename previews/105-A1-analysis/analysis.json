@@ -1,0 +1,317 @@
+{
+ "image": "D:\\workspace\\home-design\\assets\\105-A1-source.png",
+ "size": [
+  380,
+  811
+ ],
+ "mmPerPx": 34.05017921146953,
+ "scale_from": "--dim",
+ "scale_check": {},
+ "outline_px": [
+  0,
+  411,
+  285,
+  675
+ ],
+ "outline_mm": [
+  9704,
+  8989
+ ],
+ "bearing_by": "color",
+ "bearing_threshold": 56.0,
+ "segments_px": [
+  {
+   "orient": "h",
+   "line": 420.6824104234528,
+   "s0": 39.0,
+   "s1": 112.0,
+   "t": 8.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 447.6012658227848,
+   "s0": 112.0,
+   "s1": 123.0,
+   "t": 7.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 447.63793103448273,
+   "s0": 266.0,
+   "s1": 278.0,
+   "t": 7.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 474.56451612903226,
+   "s0": 94.0,
+   "s1": 104.0,
+   "t": 3.0,
+   "lum": 76.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 76，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 475.42857142857144,
+   "s0": 112.0,
+   "s1": 130.0,
+   "t": 3.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 475.4310344827586,
+   "s0": 260.0,
+   "s1": 278.0,
+   "t": 3.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 526.972602739726,
+   "s0": 258.0,
+   "s1": 277.0,
+   "t": 8.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 539.5580912863071,
+   "s0": 36.0,
+   "s1": 115.0,
+   "t": 3.0,
+   "lum": 36.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 36，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 557.4957627118644,
+   "s0": 36.0,
+   "s1": 115.0,
+   "t": 3.0,
+   "lum": 14.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 14，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 670.5,
+   "s0": 22.0,
+   "s1": 60.0,
+   "t": 3.0,
+   "lum": 33.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 33，分界 56）"
+  },
+  {
+   "orient": "h",
+   "line": 670.622199592668,
+   "s0": 210.0,
+   "s1": 278.0,
+   "t": 8.0,
+   "lum": 91.52037938990003,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 92，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 3.0,
+   "s0": 567.0,
+   "s1": 675.0,
+   "t": 6.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 37.5,
+   "s0": 541.0,
+   "s1": 556.0,
+   "t": 3.0,
+   "lum": 18.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 18，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 45.99425287356322,
+   "s0": 425.0,
+   "s1": 472.0,
+   "t": 3.0,
+   "lum": 2.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 2，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 63.5,
+   "s0": 425.0,
+   "s1": 442.0,
+   "t": 3.0,
+   "lum": 106.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 106，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 108.0,
+   "s0": 425.0,
+   "s1": 442.0,
+   "t": 8.0,
+   "lum": 115.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 115，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 108.0,
+   "s0": 567.0,
+   "s1": 675.0,
+   "t": 8.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 113.5,
+   "s0": 541.0,
+   "s1": 556.0,
+   "t": 3.0,
+   "lum": 13.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 13，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 190.0191256830601,
+   "s0": 597.0,
+   "s1": 675.0,
+   "t": 7.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 274.375,
+   "s0": 506.0,
+   "s1": 521.0,
+   "t": 3.0,
+   "lum": 5.0,
+   "outlined": false,
+   "dark": true,
+   "sure": true,
+   "why": "颜色深（亮度 5，分界 56）"
+  },
+  {
+   "orient": "v",
+   "line": 280.29213483146066,
+   "s0": 558.0,
+   "s1": 675.0,
+   "t": 8.0,
+   "lum": 77.0,
+   "outlined": false,
+   "dark": false,
+   "sure": true,
+   "why": "颜色浅（亮度 77，分界 56）"
+  }
+ ],
+ "gaps_px": [
+  {
+   "orient": "h",
+   "line": 474.9965437788019,
+   "s0": 104.0,
+   "s1": 112.0,
+   "t": 3.0,
+   "a": 3,
+   "b": 4,
+   "lines": 0.0,
+   "guess": "door"
+  }
+ ],
+ "dims_px": {
+  "top": [],
+  "bottom": [
+   {
+    "at": 714,
+    "ticks": [
+     4.5,
+     172.0,
+     175.0,
+     191.7
+    ]
+   }
+  ],
+  "left": [],
+  "right": [
+   {
+    "at": 340,
+    "ticks": [
+     376.5,
+     420.5,
+     447.0,
+     526.0,
+     670.5,
+     714.5
+    ]
+   }
+  ]
+ }
+}
